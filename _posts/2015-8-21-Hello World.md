@@ -1,3 +1,8 @@
+---
+layout: post
+title: You're up and running!
+---
+
 # Hello World  
 
 ## 一直在想 怎么架设 github pages + jekyll ， 看着网上的教程 各种代码 各种命令行 头一直在变大
