@@ -2,17 +2,31 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+	<h2>多行文字垂直居中</h2>
+	<div id="demo-0">
+		<span>我就说传说的很多行文字，多的你想象不出来，我一般出来就要占据很多很多行。因为如果我不占据很多行，就有人要来打我，所以我只能写啊写啊写。。。</span>
+	</div>
+	<h2>display:table-cell;和文字大小控制居中</h2>
+	<ul id="demo-1">
+		<li>
+			<div><img src="img/1.jpg" alt="狗狗"/></div>
+		</li>
+		<li>
+			<div><img src="img/2.jpg" alt="狗狗"/></div>
+		</li>
+		<li>
+			<div><img src="img/4.jpg" alt="狗狗"/></div>
+		</li>
+	</ul>
+	<h2>display:inline-block;和文字大小居中</h2>
+	<div id="demo-2">
+		<a href="#"><img src="img/1.jpg" alt="狗狗"/></a>
+		<a href="#"><img src="img/2.jpg" alt="狗狗"/></a>
+		<a href="#"><img src="img/4.jpg" alt="狗狗"/></a>
+	</div>
+	<h2>方案3中思路跟2差不多，基本就是使用一个内联块级元素将height撑满100%</h2>
+	<ul id="demo-3">
+		<li><a href="#"><span></span><img src="img/1.jpg" alt="狗狗"/></a></li>
+		<li><a href="#"><span></span><img src="img/2.jpg"alt="狗狗"/></a></li>
+		<li><a href="#"><span></span><img src="img/4.jpg"alt="狗狗"/></a></li>
+	</ul>
