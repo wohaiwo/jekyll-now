@@ -51,6 +51,8 @@ url:
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+# 是否开启分页功能  如果想要添加分页功能只需要 paginate: 5 相对于开启了5页
+paginate: 
 #
 # !! You don't need to change any of the configuration flags below !!
 #
