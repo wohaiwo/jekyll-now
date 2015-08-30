@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *.iml
 .idea/
 .idea/scopes/scope_settings.xml
@@ -24,14 +23,3 @@ node_modules
 _site
 sea-modules
 .cache
-=======
-_site
-.DS_Store
-.jekyll
-.bundle
-.sass-cache
-Gemfile
-Gemfile.lock
-node_modules
-package.json
->>>>>>> 0c645152ec8e1742ec5fed97dd3429d579975a34
